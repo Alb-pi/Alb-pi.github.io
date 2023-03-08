@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Work+Sans:wght@100;300;400;600;800&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Work Sans';
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    height: 90vh;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header{
+    position: sticky;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: linear-gradient(rgba(59, 189, 98, 0.8), rgba(142, 247, 164, 0.8));
+}
+
+section#encabezado{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(164, 209, 91, 0.8), rgba(180, 245, 194, 0.8));
+    margin-block-end: 10px;
+}
+    
+h1{
+        font-size: 3rem;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: black;
+}
+     
+h2{
+        font-size: 2rem;
+        text-align: center;
+        font-weight: bold;
+        color: black;
+}
+
+.experiencia-detalle{
+    border: 5px solid lightgreen;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    margin: 20px;
+}
+
+.experiencia-detalle img{
+    width: 200px;
+    height: 200px;
+}    
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li{
+    margin-left: 20px;
+    margin-right: 20px;
+    padding:20px 20px;
+    background-color: aquamarine;
+}
+
+img{
+    width: 300px;
+    height: 300px;
+    
+}
+
+.educacion-detalle{
+    border: 5px solid lightgreen;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 100px;
+    margin: 50px;
+}
+
+.idiomas-detalle{
+    border: 5px solid lightgreen;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 100px;
+    margin: 50px;
+}
+
+.container {
+    width: 90%; 
+    background-color: #ddd; 
+}
+  
+.skills {
+    text-align: right; 
+    padding-top: 5px; 
+    padding-bottom: 5px; 
+    color: white; 
+}
+  
+.comunicacion {width: 90%; background-color: #04AA6D;}
+.creatividad {width: 80%; background-color: #2196F3;}
+.dedicacion {width: 100%; background-color: #f44336;}
+.compromiso {width: 100%; background-color: #808080;}
